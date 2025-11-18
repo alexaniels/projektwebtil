@@ -6,9 +6,10 @@ tekst #29467f
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #f7f5f3;
     color: #29467f;
+    line-height: 1.5;
 }
 
 /*navigation*/
@@ -44,14 +45,7 @@ nav li a{
 nav li a:hover{
     text-decoration: underline;
 }
-/*main*/
-/*main{
-    margin: 4em;
-}
 
-section{
-    margin-bottom: 3em;
-}*/
 
 /*header*/
 header nav{
@@ -78,12 +72,17 @@ button#bars{
     background-color: transparent;
     border: none;
 }
-
+/* evt slet
 section:nth-of-type(1) div{
     padding-bottom: 2em;
+}*/
+
+/*main*/
+main{
+    margin: 4em;
 }
 
-.logo-mainpage{
+.logo-center{
     display: flex;
     justify-self: center;
     height: 15em;
@@ -101,6 +100,7 @@ section:nth-of-type(1) div{
     display: inline-block;
     text-align: center;
     padding: 1em 0 1em 0;
+    list-style-position: inside;
 }
 
 ol li a{
@@ -123,9 +123,19 @@ h2 a{
     text-decoration: none;
 }
 
-/*
-ul li a{
-    text-decoration: none;
-    list-style-type: none;
+/*footer*/
+footer{
+    border-top: 1px #333 solid;
 }
-*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.5em 1em 1em;
+}
+
+.footer-img img{
+    width: 40px;
+    height: auto;
+    padding: 0.5em;
+}
