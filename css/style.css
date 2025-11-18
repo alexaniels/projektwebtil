@@ -72,10 +72,6 @@ button#bars{
     background-color: transparent;
     border: none;
 }
-/* evt slet
-section:nth-of-type(1) div{
-    padding-bottom: 2em;
-}*/
 
 /*main*/
 main{
@@ -97,15 +93,14 @@ main{
 }
 
 .liste-1{
-    display: inline-block;
-    text-align: center;
-    padding: 1em 0 1em 0;
-    list-style-position: inside;
+    display: flex;
+    justify-content: center;
 }
 
-ol li a{
+
+ol li a, footer a{
+    list-style-position: inside;
     text-decoration: none;
-    color: #29467f;
 }
 
 .nordvest,
@@ -116,26 +111,34 @@ ol li a{
 .amager,
 .osterbro{
     text-align: center;
-    padding-bottom: 1em;
+    padding: 1em 0 1em 0;
 }
 
 h2 a{
     text-decoration: none;
 }
 
+section img{
+    width: 60%;
+    display: block; /* vi er nødt til at bruge display block for at kunne bruge margin: 0 auto; fordi img er et inline element og margin kun kan bruges på block elementer */
+    margin: 0 auto;
+}
+
 /*footer*/
 footer{
     border-top: 1px #333 solid;
-}
-
-.footer{
     display: flex;
     justify-content: space-between;
-    padding: 1em 1.5em 1em 1em;
+    padding: 1em;
 }
 
 .footer-img img{
     width: 40px;
     height: auto;
     padding: 0.5em;
+}
+
+/*desktop responsiv*/
+@media screen and (min-width: 769px){
+
 }
