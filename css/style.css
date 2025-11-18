@@ -108,11 +108,18 @@ ol li a{
     color: #29467f;
 }
 
-.nordvest{
+.nordvest,
+.bronshoj,
+.norrebro,
+.frederiksberg,
+.vesterbro,
+.amager,
+.osterbro{
     text-align: center;
     padding-bottom: 1em;
 }
-p a{
+
+h2 a{
     text-decoration: none;
 }
 
