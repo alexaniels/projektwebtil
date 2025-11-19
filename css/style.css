@@ -79,7 +79,7 @@ main{
     margin: 4em;
 }
 
-.logo-center{
+.logo-center, .logo-kontakt{
     display: flex;
     justify-self: center;
     height: 15em;
@@ -131,15 +131,15 @@ h2 a{
 
 section img{
     width: 60%;
-    display: block; /* vi er nødt til at bruge display block for at kunne bruge margin: 0 auto; fordi img er et inline element og margin kun kan bruges på block elementer */
+    display: block; /*centrere elementet på siden*/
     margin: 0 auto;
 }
 
 
-/*side 2*/
+/*side 2 genbrugsguide nv*/
 .text-2{
     width: 60%;
-    display: block;
+    display: block; /*centrere elementet på siden*/
     margin: 0 auto;
     padding-top: 0.5em;
     padding-bottom: 1em;
@@ -151,6 +151,52 @@ h3{
     padding-top: 1em;
 }
 
+
+/*side 3 kontakt*/
+.text-3{
+    text-align: center;
+}
+.kontaktform{
+    padding: 1.3em;
+    width: 50%;
+    margin: 0 auto; /*centrerer elementet på siden*/
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 1em;
+    background-color: #ECECEC;
+    color: #29467f;
+    border: 1px solid #c5c5c5;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    background-color: #ECECEC;
+    color: #29467f;
+    padding: 0.8em 1.5em;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover{
+    background-color: #d8d8d8;
+}
+
+/*WCAG class gemmer teksten fra skærmen, men kan stadig læses af skærmlæsere*/
+.visually-hidden{ 
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
 
 /*footer*/
 footer{
