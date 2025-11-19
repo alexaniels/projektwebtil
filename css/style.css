@@ -87,13 +87,15 @@ main{
     padding: 1em 0 1em 0;
 }
 
-.section-1{
+.section-1,
+.section-genbrug{
     text-align: center;
     color: #29467f;
     padding: 1em 0 1em 0;
 }
 
-.liste-1{
+.liste-1,
+.liste-2{
     display: flex;
     justify-content: center;
 }
@@ -133,6 +135,23 @@ section img{
     margin: 0 auto;
 }
 
+
+/*side 2*/
+.text-2{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+h3{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+
 /*footer*/
 footer{
     border-top: 1px #333 solid;
@@ -152,7 +171,9 @@ footer{
     .nordvest, 
     .norrebro,
     .vesterbro,
-    .osterbro{
+    .osterbro,
+    .bing,
+    .rode{
         display: flex;
         flex-direction: row-reverse;
         text-align: left;
@@ -165,12 +186,16 @@ footer{
 
     .bronshoj,
     .frederiksberg,
-    .amager{
+    .amager,
+    .udv,
+    .kirk{
         display: flex;
         flex-direction: row;
         text-align: left;
         gap: 1em;
     }
-
-
+    
+    .text-2{
+        padding-top: 2em;
+    }
 }
