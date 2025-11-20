@@ -20,10 +20,14 @@ header{
     justify-content: flex-end;
     padding-bottom: 2em;
     border-bottom: #333 1px solid;
+    position: fixed; /*sætter menuen fast på siden, så når man scroller ned, følger header/menuen med*/
+    width: 100%;
+    top: 0;
 }
 
 header nav{
     display: none;
+    position: fixed;
 }
 
 .logo{
