@@ -65,7 +65,7 @@ footer a:hover{
 .show{
     display: block;
     position: absolute;
-    top: 71px;
+    top: 80px;
     right: 0;
     width: -30%; /*rykket menuen til højre på siden uden at den dækker 100% af siden*/
     background-color: #f7f5f3;
@@ -86,7 +86,7 @@ main{
     justify-self: center;
     height: 15em;
     width: auto;
-    padding: 1em 0 1em 0;
+    padding: 2em 0 1em 0;
 }
 
 .section-1,
@@ -157,6 +157,7 @@ h3{
 /*side 3 kontakt*/
 .text-3{
     text-align: center;
+    padding-top: 2em;
 }
 .kontaktform{
     padding: 1.3em;
