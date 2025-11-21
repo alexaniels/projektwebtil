@@ -83,6 +83,7 @@ main{
 
 .logo-center, .logo-kontakt{
     display: flex;
+    justify-content: center;
     height: 15em;
     width: auto;
     padding: 2em 0 1em 0;
